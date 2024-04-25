@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/NexaChat/static/css/main.624b1338.css",
-    "main.js": "/NexaChat/static/js/main.30cf7bbe.js",
+    "main.js": "/NexaChat/static/js/main.d7cd75c5.js",
     "reactPlayerYouTube.js": "/NexaChat/static/js/reactPlayerYouTube.7464b565.chunk.js",
     "reactPlayerSoundCloud.js": "/NexaChat/static/js/reactPlayerSoundCloud.31a2a585.chunk.js",
     "reactPlayerVimeo.js": "/NexaChat/static/js/reactPlayerVimeo.5bdcd4e8.chunk.js",
@@ -18,7 +18,7 @@
     "reactPlayerPreview.js": "/NexaChat/static/js/reactPlayerPreview.4cbdd469.chunk.js",
     "index.html": "/NexaChat/index.html",
     "main.624b1338.css.map": "/NexaChat/static/css/main.624b1338.css.map",
-    "main.30cf7bbe.js.map": "/NexaChat/static/js/main.30cf7bbe.js.map",
+    "main.d7cd75c5.js.map": "/NexaChat/static/js/main.d7cd75c5.js.map",
     "reactPlayerYouTube.7464b565.chunk.js.map": "/NexaChat/static/js/reactPlayerYouTube.7464b565.chunk.js.map",
     "reactPlayerSoundCloud.31a2a585.chunk.js.map": "/NexaChat/static/js/reactPlayerSoundCloud.31a2a585.chunk.js.map",
     "reactPlayerVimeo.5bdcd4e8.chunk.js.map": "/NexaChat/static/js/reactPlayerVimeo.5bdcd4e8.chunk.js.map",
@@ -36,6 +36,6 @@
   },
   "entrypoints": [
     "static/css/main.624b1338.css",
-    "static/js/main.30cf7bbe.js"
+    "static/js/main.d7cd75c5.js"
   ]
 }
