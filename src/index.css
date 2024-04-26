@@ -553,3 +553,213 @@ h3{
   background-color: #2a2a2a;
 }
 
+
+
+
+/* ====================================================================================================================================== */
+@media (max-width:700px) {
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    /* overflow: hidden; */
+  }
+  body{
+    height: max-content;
+    width: 100%;
+    background: #00122e;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  h1{
+    font-size: 5vw;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #D1BB9E;
+  }
+  h2{
+    font-size: 1.5vw;
+    width: 100%;
+    font-weight: 400;
+    text-align: justify;
+    color: #D1BB9E;
+    text-transform: capitalize;
+  }
+  h3{
+    font-size: 3vw;
+    letter-spacing: 2px;
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    color: #D1BB9E;
+  }
+  .Home-div{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    color: antiquewhite;
+  }
+  
+  
+  .Home-div hr{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 10%;
+  }
+  h3{
+    font-size: 3vw;
+    letter-spacing: normal;
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    color: #D1BB9E;
+  }
+  
+  .Home-div .info{
+    position: relative;
+    width: 80%;
+    height: 100%;
+    margin-top: 10%;
+  }
+  
+  .Home-div .instructions{
+    position: relative;
+    width: 80%;
+    height: max-content;
+    margin-top: 3%;
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    border: 1px solid snow;
+    border-radius: 10px;
+    background-color: #6d72793c;
+    backdrop-filter: blur(10px);
+  }
+  
+  .Home-div .instructions .inner{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin-left: 5%;
+    display: flex;
+    margin-top:2% ;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .Home-div .instructions h2{
+    font-size: 3.2vw;
+  }
+  
+  .Home-div .instructions .inner i{
+    width: 5%;
+    font-size: 3vw;
+    font-weight: 400;
+    color: rgb(163, 211, 195);
+  }
+  .Home-div .instructions .inner h3{
+    width: 95%;
+    text-align: left;
+    font-size: 3vw;
+    margin-bottom: 1%;
+  }
+  
+  /* Next Button--------------------------------------------------------------------------------------------- */
+  .box {
+    width: 140px;
+    height: auto;
+    float: left;
+    transition: .5s linear;
+    position: relative;
+    display: block;
+    /* z-index: 1000; */
+    overflow: hidden;
+    padding: 15px;
+    text-align: center;
+    margin: 0 5px;
+    background: transparent;
+    text-transform: uppercase;
+    font-weight: 900;
+    transform: scale(4);
+  }
+  
+  
+.lobby-main{
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: inherit;
+  overflow: hidden;
+}
+
+.lobby-main .lobby{
+  position: relative;
+  width: 80vw;
+  height: 70vh;
+  border: 1px solid snow;
+  background-color: #3439414b;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20%;
+}
+
+.lobby-main .lobby h2{
+  font-size: 4vw;
+  width: 100%;
+  font-weight: 400;
+  text-align: justify;
+  color: #D1BB9E;
+  text-transform: capitalize;
+}
+
+.lobby-main .lobby .code{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  align-items: center;
+  justify-content: space-around;
+  /* gap: 2%; */
+}
+.lobby-main .lobby .code h2{
+  font-size: 5vw;
+  width: 100%;
+  font-weight: 400;
+  text-align: justify;
+  color: #D1BB9E;
+  /* text-transform: capitalize; */
+}
+
+.lobby-main .lobby .code i{
+  position: relative;
+  width: max-content;
+  font-size: 4vw;
+  color: snow;
+  cursor: pointer;
+}
+.scene{
+  transform: scale(0.8);
+}
+.btn{
+  transform: scale(0.7);
+}
+}
